@@ -8,4 +8,4 @@ describe ('incorrect login practice',()=>{
         cy.get('.post-title').should('have.text','Logged In Successfully')
         cy.get('strong').eq(1).should ('have.text, Congratulations student. You successfully logged in!')
     })
-})
+}) //hello
